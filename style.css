@@ -155,3 +155,36 @@ h2 {
     background-position: 50%;
 
 }
+
+.last-pic img {
+    width: 80%;
+    background-image: url(shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50%;
+
+
+}
+
+.position1 {
+    padding-left: 30%;
+}
+
+
+.position2 {
+    padding-right: 30%;
+}
+
+.banner {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px 0px;
+    padding: 10px 0px 10px 10px;
+}
