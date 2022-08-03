@@ -6,6 +6,17 @@ body {
 
 }
 
+.container {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.introduction {
+    width: 50%;
+    padding-left: 5%;
+}
+
 h1 {
 
     font-size: 40px;
@@ -39,22 +50,11 @@ h1 {
 
 }
 
-.container {
-    display: flex;
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
-
-.introduction {
-    width: 50%;
-    padding-left: 5%;
-}
-
 #font-size {
     font-size: 15px;
 }
 
-h3 {
+h2 {
     font-weight: bold;
 }
 
@@ -112,5 +112,46 @@ h3 {
 
 #middle {
     text-align: center;
+
+}
+
+#font {
+    font-weight: bold;
+
+}
+
+.second-pic img {
+    width: 50%;
+    padding-left: 40%;
+    padding-top: 100px;
+    background-size: 50%;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+.introduction2 {
+
+    padding-top: 5%;
+    padding-right: 40%;
+    width: 100%;
+}
+
+.introduction3 {
+
+    padding-top: 5%;
+    padding-left: 40%;
+    width: 100%;
+}
+
+.third-pic img {
+    width: 50%;
+    padding-right: 40%;
+    padding-top: 100px;
+    background-size: 50%;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
 
 }
